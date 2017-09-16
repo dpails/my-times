@@ -1,0 +1,85 @@
+.header{
+  display:flex;
+  border-bottom: 1px solid black;
+  border: 1px solid black;
+}
+
+.logo{
+  padding: 15px 15px 10px 15px;
+  /*border: 1px solid black;*/
+}
+.mytimes{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: MediumAquamarine;
+  margin-top: 35px;
+  /*border: 1px solid black;*/
+}
+
+.navigation{
+  border: 1px dotted black;
+  width: 80%;
+  display: flex;
+  position: absoute;
+  left: 500px;
+  top: 30px;
+  justify-content: flex-end;
+  margin-left:40px;
+
+}
+.navlist{
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 35px;
+  /*border: 1px solid black;*/
+  padding-left: 40px;
+  color: black;
+}
+.maincontainer{
+  border: 1px solid black;
+  diplay: flex;
+  flex-direction: column;
+}
+
+.largecontainer{
+  border: 1px solid black;
+  width: 630px;
+
+}
+
+.tunasteak{
+  border: 1px solid black;
+}
+
+.img{
+  border: 1px solid black;
+  height: 17px;
+}
+
+.article{
+  border: 1px solid black;
+}
+
+.orca{
+  border: 1px solid black;
+}
+
+.mediumcontainer{
+  border: 1px solid black;
+  width: 300px;
+
+}
+
+.smallcontainer{
+  border: 1px solid black;
+  /*display: flex;
+  flex-direction: column;*/
+  width: 240px;
+}
+
+.lastarticle{
+  border: 1px solid black;
+  margin-bottom: 178px;
+}
