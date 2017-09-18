@@ -39,14 +39,13 @@
 }
 .maincontainer{
   border: 1px solid black;
-  diplay: flex;
-  flex-direction: column;
 }
 
 .largecontainer{
   border: 1px solid black;
   width: 630px;
-
+  display: flex;
+  flex-direction: column;
 }
 
 .tunasteak{
@@ -58,28 +57,50 @@
   height: 17px;
 }
 
-.article{
+.burger{
   border: 1px solid black;
 }
 
 .orca{
   border: 1px solid black;
+  width: 630px;
+}
+
+.earth{
+  border: 1px solid black;
+  width: 630px;
+}
+
+.research{
+  border: 1px solid black;
+  width: 630px;
 }
 
 .mediumcontainer{
   border: 1px solid black;
   width: 300px;
+  display: flex;
+  flex-direction: column;
+}
 
+.cats{
+  border: 1px solid black;
+  width: 300px;
 }
 
 .smallcontainer{
   border: 1px solid black;
-  /*display: flex;
-  flex-direction: column;*/
+  display: flex;
+  flex-direction: column;
   width: 240px;
 }
 
 .lastarticle{
   border: 1px solid black;
   margin-bottom: 178px;
+}
+
+.column{
+  display: inline-flex;
+  align-items: flex-start;
 }
